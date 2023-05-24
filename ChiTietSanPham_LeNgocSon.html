@@ -5,8 +5,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        /* CSS để tạo kiểu cho phần footer */
+        footer {
+          background-color: #f1f1f1;
+          padding: 20px;
+        }
+    
+        .footer-icon {
+          margin-right: 10px;
+        }
+    
+        .search-box {
+          width: 200px;
+          height: 30px;
+          padding: 5px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+        }
+    
+        .footer-icon span {
+          margin-right: 5px;
+        }
+      </style>
+
+<style>
+    /* CSS để tạo kiểu cho thanh menu */
+    ul.menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f1f1;
+      overflow: hidden;
+    }
+
+    ul.menu li {
+      float: left;
+    }
+
+    ul.menu li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    ul.menu li a:hover {
+      background-color: #ddd;
+    }
+
+    /* CSS để ẩn nội dung mở rộng của mục menu */
+    .submenu {
+      display: none;
+      background-color: #f9f9f9;
+      padding: 10px;
+    }
+
+    /* CSS để hiển thị nội dung mở rộng khi hover */
+    ul.menu li:hover .submenu {
+      display: block;
+    }
+  </style>
+
+
 </head>
 <body>
     
+      <!-- Phần nội dung chính của trang web -->
+
+  <footer>
+    <div>
+      <!-- Icon -->
+      <span class="footer-icon">
+        <img src="icon.png" alt="Icon" width="20" height="20">
+      </span>
+      
+      <!-- Search Box -->
+      <input type="text" class="search-box" placeholder="Search...">
+
+      <!-- Icon Giỏ hàng -->
+      <span class="footer-icon">
+        <img src="cart.png" alt="Giỏ hàng" width="20" height="20">
+      </span>
+
+      <!-- Icon Tài khoản -->
+      <span class="footer-icon">
+        <img src="account.png" alt="Tài khoản" width="20" height="20">
+      </span>
+    </div>
+  </footer>
+
+     <!-- Thanh menu -->
+  <ul class="menu">
+    <li>
+      <a href="#">Trang chủ</a>
+      <div class="submenu">
+        <a href="#">Thông tin 1</a>
+        <a href="#">Thông tin 2</a>
+        <a href="#">Thông tin 3</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">Dịch vụ</a>
+      <div class="submenu">
+        <a href="#">Dịch vụ 1</a>
+        <a href="#">Dịch vụ 2</a>
+        <a href="#">Dịch vụ 3</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">Sản phẩm</a>
+      <div class="submenu">
+        <a href="#">Sản phẩm 1</a>
+        <a href="#">Sản phẩm 2</a>
+        <a href="#">Sản phẩm 3</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">Giới thiệu</a>
+      <div class="submenu">
+        <a href="#">Giới thiệu 1</a>
+        <a href="#">Giới thiệu 2</a>
+        <a href="#">Giới thiệu 3</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">Liên hệ</a>
+      <div class="submenu">
+        <a href="#">Liên hệ 1</a>
+        <a href="#">Liên hệ 2</a>
+        <a href="#">Liên hệ 3</a>
+      </div>
+    </li>
+  </ul>
+
+  <!-- Phần nội dung khác của trang web -->
+
 </body>
 </html>
