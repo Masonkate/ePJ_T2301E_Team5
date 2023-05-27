@@ -1,87 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <style>
-        /* CSS để tạo kiểu cho phần footer */
-        footer {
-          background-color: #f1f1f1;
-          padding: 20px;
-        }
-    
-        .footer-icon {
-          margin-right: 10px;
-        }
-    
-        .search-box {
-          width: 200px;
-          height: 30px;
-          padding: 5px;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-        }
-    
-        .footer-icon span {
-          margin-right: 5px;
-        }
-      </style>
-
-<style>
-    /* CSS để tạo kiểu cho thanh menu */
-    ul.menu {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      background-color: #f1f1f1;
-      overflow: hidden;
-    }
-
-    ul.menu li {
-      float: left;
-    }
-
-    ul.menu li a {
-      display: block;
-      color: black;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-
-    ul.menu li a:hover {
-      background-color: #ddd;
-    }
-
-    /* CSS để ẩn nội dung mở rộng của mục menu */
-    .submenu {
-      display: none;
-      background-color: #f9f9f9;
-      padding: 10px;
-    }
-
-    /* CSS để hiển thị nội dung mở rộng khi hover */
-    ul.menu li:hover .submenu {
-      display: block;
-    }
-  </style>
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="ChiTietSanPham_LeNgocSon.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết sản phẩm</title>
+  
 
 </head>
+
 <body>
-    
-      <!-- Phần nội dung chính của trang web -->
+
+  <!-- Phần nội dung của trang web -->
 
   <footer>
     <div>
       <!-- Icon -->
       <span class="footer-icon">
-        <img src="icon.png" alt="Icon" width="20" height="20">
+        <img src="Team5_logo.jpg" alt="Icon" width="20" height="20">
       </span>
-      
+
       <!-- Search Box -->
       <input type="text" class="search-box" placeholder="Search...">
 
@@ -97,7 +37,7 @@
     </div>
   </footer>
 
-     <!-- Thanh menu -->
+  <!-- Thanh menu -->
   <ul class="menu">
     <li>
       <a href="#">Trang chủ</a>
@@ -141,7 +81,60 @@
     </li>
   </ul>
 
-  <!-- Phần nội dung khác của trang web -->
+  <!-- Nội dung chi tiết sản phẩm  -->
+  <div class="main-content">
+  <!-- Phần thanh chỉ đường dẫn - tạm thời đang comment lại  -->
+  <!-- <div class="crumbs">
+    <ul class="crumbs-ul">
+      <li>
+        <h4>
+          <a href="/" title="Trang chủ">
+            ::before
+            "Trang chủ"
+          </a>
+        </h4>
+      </li>
+      <li></li>
+      <li></li>
+    </ul> -->
+  </div>
+  <!-- Phần thông tin chi tiết sản phẩm -->
 
+  <div class="flower-details">
+    <div class="flower-image">
+      <img src="001_tinh-dau-tho-ngay.jpg" alt="Hình ảnh hoa">
+    </div>
+    <div class="flower-info">
+      <h2>Tên sản phẩm hoa</h2>
+      <p>Mô tả ngắn về hoa...</p>
+      <ul>
+        <li>Đặc điểm 1</li>
+        <li>Đặc điểm 2</li>
+        <li>Đặc điểm 3</li>
+      </ul>
+      <p>Giá: $99.99</p>
+      <div class="add-to-cart">
+        <button>Thêm vào giỏ</button>
+      </div>
+      <div class="buy-now">
+        <button>Mua ngay</button>
+      </div>
+      <div class="call-now">
+        <button>Gọi ngay: 1800 6789</button>
+      </div>
+    </div>
+  </div>
+  
+
+
+  </div>
+
+
+
+
+  <!-- Phần nội dung khác của trang web -->
+  
 </body>
+
 </html>
+<script src="ChiTietSanPham_LeNgocSon.js"></script>
