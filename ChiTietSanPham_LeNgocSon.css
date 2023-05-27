@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS để tạo kiểu cho phần footer */
+footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.footer-icon {
+    margin-right: 10px;
+}
+
+.search-box {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.footer-icon span {
+    margin-right: 5px;
+}
+
+/* CSS để tạo kiểu cho thanh menu */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+ul.menu li {
+    float: left;
+}
+
+ul.menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    background-color: #ddd;
+}
+
+
+/* CSS để ẩn nội dung mở rộng của mục menu */
+.submenu {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+/* CSS để hiển thị nội dung mở rộng khi hover */
+ul.menu li:hover .submenu {
+    display: block;
+}
+
+   /* CSS cho phần crumbs - đường dẫn - tạm thời comment phần này */
+/* .crumbs { 
+    list-style: none;
+    font-weight: 600;
+    float: left;
+    font-size: 14px;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: calc(100% - 70px);
+} */
+/* 
+.crumbs li {
+    display: inline-block;
+} */
+
+.flower-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flower-image {
+    width: 50%;
+    padding: 20px;
+    order: 1; /* Thay đổi thứ tự hiển thị */
+  }
+  
+  .flower-image img {
+    width: 100%;
+  }
+  
+  .flower-info {
+    width: 50%;
+    padding: 20px;
+    order: 2; /* Thay đổi thứ tự hiển thị */
+  }
+  
+  .flower-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .flower-info p {
+    margin-bottom: 10px;
+  }
+  
+  .flower-info ul {
+    list-style-type: disc;
+    margin-bottom: 10px;
+  }
+  
+  .flower-info ul li {
+    margin-bottom: 5px;
+  }
+  
+  .add-to-cart button,
+  .buy-now button,
+  .call-now button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-to-cart button:hover,
+  .buy-now button:hover,
+  .call-now button:hover {
+    background-color: #ff6659;
+  }
+  
