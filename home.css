@@ -285,7 +285,7 @@ html {
 
 /* SLIDER TRƯỢT */
 #slider{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     overflow: hidden;
     margin-top: 110px;
@@ -403,7 +403,6 @@ html {
 #slider .title-anh-hoa {
     text-decoration: none;
     font-size: 12px;
-    text-align: center;
     font-weight: bold;
     letter-spacing:2px ;
     opacity: 0.6;
@@ -412,6 +411,8 @@ html {
 #slider .title-anh-hoa a{
     color: #333;
     text-decoration: none;
+    font-family: 'Quicksand', sans-serif; 
+    
 }
 
 
@@ -421,7 +422,7 @@ html {
 }
 
 .list-anh-hoa:hover{
-    box-shadow: 0 0 10px rgb(147, 203, 233);
+    box-shadow: 0 0 10px rgb(228, 62, 90);
 }
 
 
@@ -429,7 +430,7 @@ html {
 
 /* LIST SẢN PHẨM BÁN CHẠY VÀ SOLOGAN */
 #wrapper{
-    max-width: 85%;
+    max-width: 90%;
     margin: 300px auto;
     /* margin: 40px 0; */
 }
@@ -630,7 +631,7 @@ ul.products li .products-infor .products-original-price4{
 /* DANH SÁCH SẢN PHẨM  */
 
 #danh-sach-san-pham{
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -671,18 +672,18 @@ ul.products li .products-infor .products-original-price4{
 /* BẮT ĐẦU GIỚI THIỆU SHOP HOA HÀ NỘI */
 
 #shop-introduction{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     position: relative;
     font-size: 14px;
 }
 
-#shop-introduction .tieu-de-footer{
+#shop-introduction .tieu-de-shop-introduction{
     text-align: center;
-    margin:30px 0;
+    margin:43px 0;
 }
 
-#shop-introduction .tieu-de-footer .tieu-de-h3{
+#shop-introduction .tieu-de-shop-introduction .tieu-de-h3{
     border: none;
     color: #333;
     font-size: 25px;
@@ -700,7 +701,7 @@ ul.products li .products-infor .products-original-price4{
 }
 
 #shop-introduction .gioi-thieu-san-pham{
-    width: 50%;
+    width: 45%;
 }
 
 #shop-introduction .gioi-thieu-san-pham .document-gioi-thieu-san-pham{
@@ -720,22 +721,27 @@ ul.products li .products-infor .products-original-price4{
     border: none;
     color: #333;
     padding: 13px 95px;
+    font-size: 15px;
 }
 
 #shop-introduction .gioi-thieu-san-pham2{
     width: 50%;
-    position:absolute;
-    top: 125px;
     left: 540px;
     font-family: 'Quicksand', sans-serif;
     line-height: 1.4;
     text-align: justify;
+    position: absolute;
+    top: 111px;
+    padding-left: 15px;
+    position:absolute;
+    top: 135px;
 }
 
 #shop-introduction .dat-hoa-online2{
     border: none;
     padding: 13px 0;
     color: #333;
+    font-size: 15px;
 }
 
 #shop-introduction .document-dat-hoa-online2{
@@ -751,6 +757,7 @@ ul.products li .products-infor .products-original-price4{
 #shop-introduction .danh-muc-san-pham .tieu-de-danh-muc-san-pham{
     border: none;
     color: #333;
+    font-size: 15px;
 }
 
 #shop-introduction .list-san-pham{
@@ -765,7 +772,7 @@ ul.products li .products-infor .products-original-price4{
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 15x;
 }
 
 #shop-introduction li:hover a{
@@ -773,3 +780,216 @@ ul.products li .products-infor .products-original-price4{
 }
 
 /* HẾT GIỚI THIỆU VỀ SHOP */
+
+/* PHẦN KẺ NGANG  */
+
+#solid{
+    border: 1px solid;
+    width: 1126px;
+    position: absolute;
+    left: 59px;
+    margin: 45px 0;
+    color: #ccc;
+}
+
+
+/* FOOTER */
+
+#footer{
+    width: 90%;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 80px;
+}
+
+#footer .ten-shop-footer{
+    position: absolute;
+    left: 5%;
+    width: 35%;
+    text-align: justify;
+}
+
+#footer .document-ten-shop{
+    font-size: 17px;
+    color: #656262;
+    font-weight: bold;
+
+}
+
+#footer .cua-hang-chinh{
+    padding-top: 15px;
+    font-size: 17px;
+    color: #656262;
+    font-weight: bold;
+
+}
+
+#footer .cua-hang-chinh a{
+    text-decoration: none;
+    color: #656262;
+    font-size: 15px;
+    color: #656262;
+    font-weight: 100;
+
+}
+
+#footer .van-phong{
+    padding: 30px 0;
+    font-size: 17px;
+    color: #656262;
+    font-weight: bold;
+
+}
+
+#footer .van-phong a{
+    text-decoration: none;
+    color: #656262;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#footer .chi-nhanh-hcm{
+    font-size: 17px;
+    color: #656262;
+    font-weight: bold;
+
+}
+
+#footer .chi-nhanh-hcm a{
+    text-decoration: none;
+    color: #656262;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#footer a:hover{
+    color: rgb(228, 62, 90);
+}
+
+#footer .link-mang-xa-hoi{
+    position: absolute;
+    left: 50%;
+}
+
+#footer .theo-doi-shop{
+    padding-bottom: 13px;
+    display: inline;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(97, 96, 96);
+}
+
+#footer .facebook{
+    font-size: 31px;
+    color: blue;
+    position: absolute;
+    left: -3px;
+
+}
+
+#footer .span1{
+    position: absolute;
+    left: 34px;
+    top: 37px;
+}
+
+#footer .twitter{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    font-size: 30px;
+    color: blue;
+
+}
+
+#footer .span2{
+    position: absolute;
+    left: 32px;
+    top: 86px;
+}
+
+#footer .ingstagram{
+  top: 126px;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  position: absolute;
+}
+
+#footer .span3{
+    position: absolute;
+    left: 33px;
+    top: 130px;
+}
+
+#footer .linkedin{
+    font-size: 30px;
+    position: absolute;
+    left: 1px;
+    top: 170px;
+    color: blue;
+
+}
+
+#footer .span4{
+    position: absolute;
+    left: 35px;
+    top: 177px;
+}
+
+#footer .youtube{
+    font-size: 30px;
+    position: absolute;
+    left: -2px;
+    top: 213px;
+    color: red;
+}
+
+#footer .span5{
+    position: absolute;
+    left: 36px;
+    top: 219px;
+}
+
+#footer .cham-soc-khach-hang{
+    display: inline;
+    position: absolute;
+    right: 0;
+}
+
+#footer .tieu-de-cham-soc-khach-hang{
+    color: rgb(97, 96, 96);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#footer .list-cham-soc-khach-hang{
+    padding-top: 10px;
+}
+
+#footer .list-cham-soc-khach-hang li{
+    padding: 5px 0;
+    list-style: none;
+}
+
+#footer .list-cham-soc-khach-hang li a{
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+    transition: 0.3s;
+}
+
+
+#footer .list-cham-soc-khach-hang li a:hover {
+    color: rgb(228, 62, 90);
+    letter-spacing: 0.1em;
+}
