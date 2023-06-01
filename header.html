@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/icon/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <!-- CSS -->
+    <style>
+        
+/* <!-- THANH TÌM KIẾM, LOGO, ĐĂNG NHẬP-ĐĂNG KÝ VÀ MENU --> */
+
+
+#header .header-with-search{
+    display: block;
+    position: relative;
+}
+/* LOGO */
+.header-logo{
+    display: inline;
+    margin: 0 60px;
+    position: absolute;
+    top: 24px;
+    left: -43px;
+}
+
+.anh-logo{
+    width: 270px;
+}
+
+/* SEARCH BOX */
+.header-search{
+    text-align: center;
+    float: right;
+    position: absolute;
+    overflow: hidden;
+    width: 570px;
+    height: 35px;
+    left: 28%;
+    top: 10px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+.search-box{
+    width: 100%;
+    height: 100%;
+    background:white;
+    outline: none;
+    border:none;
+    font-size: 15px;
+    color: rgb(217, 95, 115);
+    padding: 0 12px;
+}
+
+.search-box-button{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 35px;
+    height: 51px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+ .search-box-button:hover{
+    cursor: pointer;
+    background-color:rgb(217, 95, 115);
+} 
+
+.header-cart{
+    position: absolute;
+    top: 21px;
+    left: 75%;
+    font-size: 27px;
+}
+
+.header-cart:hover{
+    cursor: pointer;
+}
+
+/* ĐĂNG NHẬP-ĐĂNG KÝ */
+
+.tai-khoan{
+    position: absolute;
+    left: 80%;
+    top: 29px;
+}
+
+.btn{
+    font-family: sans-serif;
+    padding: 12px 20px;
+    border-radius: 16px;
+    transition: 0.5s;
+    border:none;
+}
+
+.btn:hover{
+    background-color:rgb(217, 95, 115);
+    letter-spacing: 0.2em;
+    cursor: pointer;
+}
+
+
+/* THANH MENU */
+#header{
+    height:110px;
+    background-color: #ccc;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav{
+    margin: 0 322px;
+    min-width: 500px;
+}
+
+#nav > li{
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+#nav >li{
+    padding:78px 0  0  0;
+}
+
+#nav >li >a{
+   padding:0 15px;
+   text-decoration: none;
+   color: #333;
+   font-size: 17px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#nav li a{
+    text-decoration: none;
+    color: #333;
+    padding:0 22px;
+    line-height: 23px;  
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#nav >li:hover> a{
+   color: rgb(228, 62, 90);
+}
+
+
+/* MENU ĐA CẤP */
+
+#nav .subnav1 li:hover a{
+    color: rgb(228, 62, 90);
+    cursor: pointer;
+}
+#nav li:hover .subnav1{
+    display: block;
+}
+
+#nav .subnav1, .subnav2, .subnav3, .subnav4, .subnav5, .subnav6 a{
+    color: #000;
+    font-size: 15px;
+}
+
+#nav .subnav1  {
+   display: none;
+   position: absolute;
+   background: #fff;
+   width: 200px;
+   list-style: none;
+   border-radius: 15px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+} 
+
+#nav li:hover .subnav2 {
+    display: block;
+    
+}
+
+#nav .subnav2{
+    display: none; 
+    position: absolute;
+    background: #fff;
+    width: 140px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+#nav .subnav2 li:hover a{
+    transition: 0.5s;
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+    
+}
+
+#nav li:hover .subnav3{
+    display: block;
+}
+
+#nav .subnav3{
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 255px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav3 li:hover a{
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+}
+
+#nav li:hover .subnav4{
+    display: block;
+}
+
+#nav .subnav4{
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav4 li:hover a{
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+}
+
+#nav li:hover .subnav5{
+    display: block;
+}
+
+#nav .subnav5{
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav5 li:hover a{
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+}
+
+
+#nav li:hover .subnav6{
+    display: block;
+}
+
+
+#nav .subnav6{
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav6 li:hover a{
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+}
+
+/* HẾT THANH TÌM KIẾM, LOGO, ĐĂNG NHẬP-ĐĂNG KÝ VÀ MENU*/
+    </style>
+
+
+       <!-- THANH TÌM KIẾM, LOGO, ĐĂNG NHẬP-ĐĂNG KÝ VÀ MENU -->
+       <div id="header">
+        <div id="header-nav">
+             <ul id="nav">
+                <li><a href="">Liên Hệ</a></li>
+
+                <li><a href="">Kiểu Dáng</a>
+                     <ul class="subnav4">
+                        <li><a href="">Giỏ hoa tươi</a></li>
+                        <li><a href="">Bó hoa tươi</a></li>
+                        <li><a href="">Hộp hoa tươi</a></li>
+                        <li><a href="">Lãng hoa khai trương</a></li>
+                        <li><a href="">Hoa thả thính</a></li>
+                        <li><a href="">Lãng hoa chia buồn</a></li>
+                        <li><a href="">Bình hoa tươi</a></li>
+                    </ul>  
+                </li>                    
+                <li><a href="">Đối Tượng</a>
+                     <ul class="subnav5">
+                        <li><a href="">Hoa tặng người yêu</a></li>
+                        <li><a href="">Hoa tặng bạn bè</a></li>
+                        <li><a href="">Hoa tặng vợ</a></li>
+                        <li><a href="">Hoa tặng chồng</a></li>
+                        <li><a href="">Hoa tặng sếp</a></li>
+                        <li><a href="">Hoa tặng mẹ</a></li>
+                        <li><a href="">Hoa tặng đồng nghiệp</a></li>
+                </ul> 
+            </li>
+            <li><a href="">Chủ Đề</a>
+                 <ul class="subnav6">
+                    <li><a href="">Hoa sinh nhật</a></li>
+                    <li><a href="">Hoa khai trương</a></li>
+                    <li><a href="">Hoa chúc mừng</a></li>
+                    <li><a href="">Hoa chia buồn</a></li>
+                    <li><a href="">Hoa chúc sức khỏe</a></li>
+                    <li><a href="">Hoa tình yêu</a></li>
+                    <li><a href="">Hoa cảm ơn</a></li>
+                </ul>  
+            </li>
+            <li><a href="">Trang Chủ</a></li>
+        </ul>         
+        </div>
+
+        <div class="header-with-search">
+            <div class="header-logo">
+                <img src="asset/img-logo/shop-hoa-tuoi-flowercorner-logo.png" alt="" class="anh-logo">
+            </div>
+
+            <div class="header-search">
+                <input class="search-box" name="search" type="text" placeholder="search">
+                <button class="search-box-button">
+                    <i class="ti-search"></i>
+                </button>
+            </div>
+
+            <div class="header-cart">
+                <i class="ti-header-cart ti-shopping-cart"></i>
+            </div>
+
+            <div class="tai-khoan">
+                <button class="btn dang-nhap">Đăng Nhập</button>
+                <button class="btn dang-ky">Đăng Ký</button>                                    
+            </div>
+        </div>
+   </div>
+   <!-- HẾT THANH TÌM KIẾM, LOGO VÀ MENU -->
+</body>
+</html>
