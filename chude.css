@@ -36,6 +36,311 @@ a {
     border: none;
 }
 
+#header .header-with-search{
+    display: block;
+    position: relative;
+}
+/* LOGO */
+.header-logo{
+    display: inline;
+    margin: 0 60px;
+    position: absolute;
+    top: 24px;
+    left: 0px;
+}
+
+.anh-logo{
+    width: 270px;
+}
+
+/* SEARCH BOX */
+.header-search{
+    text-align: center;
+    float: right;
+    position: absolute;
+    overflow: hidden;
+    width: 570px;
+    height: 35px;
+    left: 34%;
+    top: 10px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    text-shadow: 0px 0px 9px 5px #ffffff;
+}
+.search-box{
+    width: 100%;
+    height: 100%;
+    background:rgb(255, 255, 255);
+    outline: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    padding: 0 12px;
+}
+
+.search-box-button{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 35px;
+    height: 51px;
+    font-size: 15px;
+    border: 1px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px rgb(0, 0, 0) ;
+}
+
+ .search-box-button:hover{
+    cursor: pointer;
+    background-color:rgb(217, 95, 115);
+} 
+
+.header-cart{
+    position: absolute;
+    top: 21px;
+    left: 75%;
+    font-size: 27px;
+}
+
+.header-cart:hover{
+    cursor: pointer;
+}
+
+/* ĐĂNG NHẬP-ĐĂNG KÝ */
+
+.tai-khoan{
+    position: absolute;
+    left: 80%;
+    top: 29px;
+}
+
+.btn{
+    font-family: sans-serif;
+    padding: 12px 20px;
+    border-radius: 16px;
+    transition: 0.5s;
+    border:none;
+}
+
+.btn:hover{
+    background-color:rgb(217, 95, 115);
+    letter-spacing: 0.2em;
+    cursor: pointer;
+}
+
+
+/* THANH MENU */
+#header{
+    height:105px;
+    background-color: #ffffff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    -webkit-box-shadow: 0 2px 5px #0000001a !important;
+   
+}
+#header-nav{
+    box-sizing: border-box;
+}
+#nav{
+    margin: 0 322px;
+    width: 48%;
+    padding:0 15px;
+    
+}
+
+#nav > li{
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+#nav >li{
+    padding:78px 0  0  0;
+}
+
+#nav >li >a{
+   padding:0 15px;
+   text-decoration: none;
+   color: #333;
+   font-size: 17px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align :center;
+   /* text-decoration: none;
+    color: #333;
+    padding:0 33px;
+    line-height: 23px;  
+    font-family: 'Open Sans', sans-serif;
+  
+    text-transform: uppercase;  */
+}
+
+
+#nav li a{
+    text-decoration: none;
+    color: #333;
+    padding:0 31px;
+    line-height: 20px;  
+    font-family: 'Open Sans', sans-serif;
+  
+    text-transform: uppercase; 
+}
+
+#nav >li:hover> a{
+   color: rgb(228, 62, 90);
+}
+
+
+/* MENU ĐA CẤP */
+
+#nav .subnav1 li:hover a{
+    color: rgb(228, 62, 90);
+    cursor: pointer;
+}
+#nav li:hover .subnav1{
+    display: block;
+}
+
+#nav .subnav1, .subnav2, .subnav3, .subnav4, .subnav5, .subnav6 a{
+    color: #000;
+    font-size: 15px;
+}
+
+#nav .subnav1  {
+   display: none;
+   position: absolute;
+   background: #fff;
+   width: 200px;
+   list-style: none;
+   border-radius: 15px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+} 
+
+#nav li:hover .subnav2 {
+    display: block;
+    
+}
+
+#nav .subnav2{
+    display: none; 
+    position: absolute;
+    background: #fff;
+    width: 140px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+#nav .subnav2 li:hover a{
+    transition: 0.5s;
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+    
+}
+
+#nav li:hover .subnav3{
+    display: block;
+}
+
+#nav .subnav3{
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 255px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav3 li:hover a{
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+}
+
+#nav li:hover .subnav4{
+    display: block;
+}
+
+#nav .subnav4{
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav4 li:hover a{
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+}
+
+#nav li:hover .subnav5{
+    display: block;
+}
+
+#nav .subnav5{
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav5 li:hover a{
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+}
+
+
+#nav li:hover .subnav6{
+    display: block;
+}
+
+
+#nav .subnav6{
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav .subnav6 li:hover a{
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+}
+
+
+/* css thông tin thân trang web */
+#content {
+    width: 100%;
+    position: relative;
+    display: block;
+    float: left;
+    clear: both;
+    margin-top: 75px;
+
+}
+.wrapper {
+
+    margin-top: 0px auto;
+    margin: 20px auto;
+    width: 1140px;
+    position: relative;
+    display: block;
+    clear: both;
+}
+
 /* css cho ô chủ đề */
 #content .r_nav {
 
@@ -113,31 +418,15 @@ a {
 }
 
 .left-menu li a:hover {
-    color: #f33f8a;
+    color: rgb(228, 62, 90);
     text-decoration: none;
     background-color: transparent;
 }
 
 
 /* css cho các ô sản phẩm */
-
-#content {
-    width: 100%;
-    position: relative;
-    display: block;
-    float: left;
-    clear: both;
-    margin-top: 0px;
-
-}
-.wrapper {
-
-    margin-top: 0px auto;
-    margin: 20px auto;
-    width: 1140px;
-    position: relative;
-    display: block;
-    clear: both;
+.wrapper .page-cat h2 a{
+    color: #bd2026;
 }
 
 #content .page-cat {
@@ -149,11 +438,12 @@ a {
 #content .data_items .item a,
 .listSp .item a {
     font-size: 15px;
+    
 }
 
 #content .data_items .item a:hover,
 .listSp .item a:hover {
-    color: #bd2026;
+    color: rgb(228, 62, 90);
     text-decoration: none;
     background-color: transparent;
 }
@@ -194,10 +484,6 @@ a {
 }
 
 .listSp .item:hover .i img {
-    transform: scale(1.15);
-}
-
-.data_items .item:hover .i img {
     transform: scale(1.15);
 }
 
@@ -294,7 +580,7 @@ a {
 }
 
 #footer .van-phong{
-    padding: 30px 0;
+    padding: 10px 0;
     font-size: 17px;
     color: #656262;
     font-weight: bold;
@@ -425,6 +711,7 @@ a {
     display: inline;
     position: absolute;
     right: 0;
+    width: 21%;
 }
 
 #footer .tieu-de-cham-soc-khach-hang{
@@ -438,7 +725,7 @@ a {
 }
 
 #footer .list-cham-soc-khach-hang li{
-    padding: 5px 0;
+    padding: 10px 0;
     list-style: none;
 }
 

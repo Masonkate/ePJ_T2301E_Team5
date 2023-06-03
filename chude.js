@@ -12,10 +12,10 @@ const arrSpSinhNhat = [
     { ma: "sp10", ten: "Gửi ngàn lời yêu", link: "", hinh: "sn10.jpg", gia: "550.000 đ" },
     { ma: "sp11", ten: "You are beautiful", link: "", hinh: "sn11.jpg", gia: "900.000 đ" },
     { ma: "sp12", ten: "Cuti bear and rose 2", link: "", hinh: "sn12.jpg", gia: "1.200.000 đ" },
-    { ma: "sp13", ten: "Pink Box", link: "", hinh: "sn13.jpg", gia: "1.000.000 đ" },
-    { ma: "sp14", ten: "Jolie", link: "", hinh: "sn14.jpg", gia: "1.500.000 đ" },
-    { ma: "sp15", ten: "Áng mây hồng", link: "", hinh: "sn15.jpg", gia: "750.000 đ" },
-    { ma: "sp16", ten: "Proud of you", link: "", hinh: "sn16.jpg", gia: "700.000 đ" },
+    // { ma: "sp13", ten: "Pink Box", link: "", hinh: "sn13.jpg", gia: "1.000.000 đ" },
+    // { ma: "sp14", ten: "Jolie", link: "", hinh: "sn14.jpg", gia: "1.500.000 đ" },
+    // { ma: "sp15", ten: "Áng mây hồng", link: "", hinh: "sn15.jpg", gia: "750.000 đ" },
+    // { ma: "sp16", ten: "Proud of you", link: "", hinh: "sn16.jpg", gia: "700.000 đ" },
 
 ];
 
@@ -32,10 +32,10 @@ const arrSpKhaiTruong = [
     { ten: "Luxury vase 12", hinh: "hkt10.jpg", link: "", gia: "2.200.000 đ" },
     { ten: "Perfection 02", hinh: "hkt11.jpg", link: "", gia: "1.400.000 đ" },
     { ten: "Khoe sắc 2", hinh: "hkt12.jpg", link: "", gia: "1.300.000 đ" },
-    { ten: "Luxury vase 6", hinh: "hkt13.jpg", link: "", gia: "3.500.000 đ" },
-    { ten: "Hưng phát", hinh: "hkt14.jpg", link: "", gia: "2.500.000 đ" },
-    { ten: "Đỉnh cao", hinh: "hkt15.jpg", link: "", gia: "3.000.000 đ" },
-    { ten: "Khu vườn xuân", hinh: "hkt16.png", link: "", gia: "925.000 đ" },
+    // { ten: "Luxury vase 6", hinh: "hkt13.jpg", link: "", gia: "3.500.000 đ" },
+    // { ten: "Hưng phát", hinh: "hkt14.jpg", link: "", gia: "2.500.000 đ" },
+    // { ten: "Đỉnh cao", hinh: "hkt15.jpg", link: "", gia: "3.000.000 đ" },
+    // { ten: "Khu vườn xuân", hinh: "hkt16.png", link: "", gia: "925.000 đ" },
 
 ];
 
@@ -52,10 +52,10 @@ const arrSpChucMung = [
     { ten: "Glass vase 4", hinh: "hcm10.jpg", link: "", gia: "1.100.000 đ" },
     { ten: " Hoa hạnh phúc", hinh: "hcm11.jpg", link: "", gia: "1.700.000 đ" },
     { ten: "Ngày tươi sáng", hinh: "hcm12.jpg", link: "", gia: "1.000.000 đ" },
-    { ten: "Luxury vase 22", hinh: "hcm13.jpg", link: "", gia: "1.700.000 đ" },
-    { ten: "Perfection 01", hinh: "hcm14.jpg", link: "", gia: "1.700.000 đ" },
-    { ten: "Premium vase 1", hinh: "hcm15.jpg", link: "", gia: "2.800.000 đ" },
-    { ten: "Premium vase 4", hinh: "hcm16.jpg", link: "", gia: "6.000.000 đ" },
+    // { ten: "Luxury vase 22", hinh: "hcm13.jpg", link: "", gia: "1.700.000 đ" },
+    // { ten: "Perfection 01", hinh: "hcm14.jpg", link: "", gia: "1.700.000 đ" },
+    // { ten: "Premium vase 1", hinh: "hcm15.jpg", link: "", gia: "2.800.000 đ" },
+    // { ten: "Premium vase 4", hinh: "hcm16.jpg", link: "", gia: "6.000.000 đ" },
 ];
 
 const arrSpChiaBuon = [
@@ -71,10 +71,10 @@ const arrSpChiaBuon = [
     { ten: "Nguyện cầu", hinh: "hcb10.jpg", link: "", gia: "1.500.000 đ" },
     { ten: "Ước nguyện", hinh: "hcb11.jpg", link: "", gia: "1.500.000 đ" },
     { ten: "Kệ chia buồn 01", hinh: "hcb12.jpg", link: "", gia: "600.000 đ" },
-    { ten: "Thênh thang", hinh: "hcb13.jpg", link: "", gia: "1.200.000 đ" },
-    { ten: "Rest in peace", hinh: "hcb14.png", link: "", gia: "1.350.000 đ" },
-    { ten: "Condolence 2", hinh: "hcb15.jpg", link: "", gia: "1.500.000 đ" },
-    { ten: "Condolence 4", hinh: "hcb16.jpg", link: "", gia: "1.400.000" },
+    // { ten: "Thênh thang", hinh: "hcb13.jpg", link: "", gia: "1.200.000 đ" },
+    // { ten: "Rest in peace", hinh: "hcb14.png", link: "", gia: "1.350.000 đ" },
+    // { ten: "Condolence 2", hinh: "hcb15.jpg", link: "", gia: "1.500.000 đ" },
+    // { ten: "Condolence 4", hinh: "hcb16.jpg", link: "", gia: "1.400.000" },
 
 ];
 
