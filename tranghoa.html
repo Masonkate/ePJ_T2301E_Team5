@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chủ đề</title>
     <style>
     * {
         margin: 0px;
@@ -16,6 +16,47 @@
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
+
+
+    /* CSS để tạo kiểu cho thanh menu */
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+ul.menu li {
+    float: left;
+}
+
+ul.menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.menu li a:hover {
+    background-color: #ddd;
+}
+
+
+/* CSS để ẩn nội dung mở rộng của mục menu */
+.submenu {
+    display: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+/* CSS để hiển thị nội dung mở rộng khi hover */
+ul.menu li:hover .submenu {
+    display: block;
+}
+
+
 
     html {
 
@@ -268,6 +309,46 @@
 </style> 
 </head>
 
+  <!-- Thanh menu -->
+  <ul class="menu">
+    <li>
+      <a href="/home.html">Trang chủ</a>
+    <li>
+      <a href="/tranghoa.html">Chủ đề</a>
+      <div class="submenu">
+        <a href="#">Dịch vụ 1</a>
+        <a href="#">Dịch vụ 2</a>
+        <a href="#">Dịch vụ 3</a>
+      </div>
+    </li>
+    <li>
+      <a href="/ChiTietSanPham_LeNgocSon.html">Sản phẩm</a>
+      <div class="submenu">
+        <a href="#">Sản phẩm 1</a>
+        <a href="#">Sản phẩm 2</a>
+        <a href="#">Sản phẩm 3</a>
+      </div>
+    </li>
+    <li>
+      <a href="#">Giới thiệu</a>
+      <div class="submenu">
+        <a href="#">Giới thiệu 1</a>
+        <a href="#">Giới thiệu 2</a>
+        <a href="#">Giới thiệu 3</a>
+      </div>
+    </li>
+    <li>
+      <a href="/Khai_ePJ_2.1/Contact_Page/Contact_Page_Khai/Contact_Page.html">Liên hệ</a>
+      <div class="submenu">
+        <a href="#">Liên hệ 1</a>
+        <a href="#">Liên hệ 2</a>
+        <a href="#">Liên hệ 3</a>
+      </div>
+    </li>
+  </ul>
+
+
+
 <body style="font-family: 'Open Sans', sans-serif;">
     <div id="content">
         <div class="wrapper">
@@ -401,7 +482,7 @@
                         <img src="hình-hoa-sn/${product.hinh}" alt="">
                     </div>
                     <div class='t'>
-                        <a href="hoa_khai_truong.html">${product.ten}</a>
+                        <a href="ChiTietSanPham_LeNgocSon.html">${product.ten}</a>
                         <span class='vn'>${product.gia}</span>
                     </div>
                 </div>`;     
@@ -426,7 +507,7 @@
                   <img src="hình-hoa-sn/${product.hinh}" alt="">
                 </div>
                 <div class='t'>
-                  <a href="hoa_khai_truong.html">${product.ten}</a>
+                  <a href="ChiTietSanPham_LeNgocSon.html">${product.ten}</a>
                   <span class='vn'>${product.gia}</span>
                 </div>
               </div>

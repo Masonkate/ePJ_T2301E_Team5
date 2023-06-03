@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* CSS để tạo kiểu cho thanh menu */
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  overflow: hidden;
+}
+
+ul.menu li {
+  float: left;
+}
+
+ul.menu li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.menu li a:hover {
+  background-color: #ddd;
+}
+
+
+/* CSS để ẩn nội dung mở rộng của mục menu */
+.submenu {
+  display: none;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+/* CSS để hiển thị nội dung mở rộng khi hover */
+ul.menu li:hover .submenu {
+  display: block;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-wrapper {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 0 10px;
+}
+
+.form-wrapper h2 {
+  margin-top: 0;
+}
+
+.subtext {
+  color: #018445;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.forgot-password {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.forgot-password a {
+  color: #333;
+  text-decoration: none;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.login-options {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-login img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.social-login span {
+  color: #333;
+}
+
+.social-login,
+form#loginForm {
+  width: 50%
+  /* align-items: auto */
+}
+
+.social-login {
+  display: flex;
+  align-items: left;
+
+}
+
+form#loginForm {
+  margin-left: auto;
+  padding: 0%;
+}
+button[type="submit"] {
+  padding: 8px 16px; /* Giảm padding từ 10px xuống 8px và 20px xuống 16px */
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
