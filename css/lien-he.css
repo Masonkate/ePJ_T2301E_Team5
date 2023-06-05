@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* <!-- THANH TÌM KIẾM, LOGO, ĐĂNG NHẬP-ĐĂNG KÝ VÀ MENU --> */
+
+
+#header .header-with-search{
+    display: block;
+    position: relative;
+}
+/* LOGO */
+.header-logo{
+    display: inline;
+    margin: 0 60px;
+    position: absolute;
+    top: 24px;
+    left: -43px;
+}
+
+.anh-logo{
+    width: 270px;
+}
+
+/* SEARCH BOX */
+.header-search{
+    text-align: center;
+    float: right;
+    position: absolute;
+    overflow: hidden;
+    width: 495px;
+    height: 35px;
+    left: 31%;
+    top: 10px;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    border: 1px solid #ccc;
+}
+.search-box{
+    width: 100%;
+    height: 100%;
+    background:white;
+    outline: none;
+    border:none;
+    font-size: 15px;
+    color: rgb(217, 95, 115);
+    padding: 0 12px;
+}
+
+.search-box-button{
+    position: absolute;
+    top: -5px;
+    right: 0;
+    width: 35px;
+    height: 51px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+ .search-box-button:hover{
+    cursor: pointer;
+    background-color:rgb(217, 95, 115);
+} 
+
+.header-cart{
+    position: absolute;
+    top: 15px;
+    left: 71%;
+    font-size: 27px;
+}
+
+.header-cart:hover{
+    cursor: pointer;
+}
+
+/* ĐĂNG NHẬP-ĐĂNG KÝ */
+
+.tai-khoan{
+    position: absolute;
+    left: 80%;
+    top: 29px;
+}
+
+.btn{
+    font-family: sans-serif;
+    padding: 12px 20px;
+    border-radius: 16px;
+    transition: 0.5s;
+    border:none;
+}
+
+.btn:hover{
+    background-color:rgb(217, 95, 115);
+    letter-spacing: 0.2em;
+    cursor: pointer;
+}
+
+
+/* THANH MENU */
+#header{
+    height:110px;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    -webkit-box-shadow: 0 2px 5px #0000001a !important;
+}
+
+#nav{
+    margin: 0 355px;
+}
+
+#nav > li{
+    position: relative;
+    display: inline;
+    float: right;
+}
+
+#nav >li{
+    padding:78px 0  0  0;
+}
+
+#nav >li >a{
+   padding:0 15px;
+   text-decoration: none;
+   color: #333;
+   font-size: 17px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#nav li a{
+    text-decoration: none;
+    color: #333;
+    padding:0 32px;
+    line-height: 23px;  
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#nav >li:hover> a{
+   color: rgb(228, 62, 90);
+}
+
+
+/* MENU ĐA CẤP */
+
+
+#nav .subnav1, .subnav2, .subnav3 a{
+    color: #000;
+    font-size: 15px;
+}
+
+
+#nav li:hover .subnav1{
+    display: block;
+}
+/* 
+#nav .subnav1{
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 210px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    top: 100%;
+}
+
+#nav .subnav1 li:hover a{
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+}
+
+#nav li:hover .subnav2{
+    display: block;
+}
+
+#nav .subnav2{
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 210px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    top: 100%;
+}
+
+#nav .subnav2 li:hover a{
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+} */
+
+
+#nav li:hover .subnav3{
+    display: block;
+}
+
+
+#nav .subnav3{
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    list-style: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    top: 100%;
+}
+
+#nav .subnav3 li:hover a{
+    cursor: pointer;
+    color: rgb(228, 62, 90);
+}
+
+/* HẾT THANH TÌM KIẾM, LOGO, ĐĂNG NHẬP-ĐĂNG KÝ VÀ MENU*/
+
+#content-gioi-thieu-shop{
+    margin-top  : 110px;
+    
+}
+
+#content-gioi-thieu-shop .tieu-de-gioi-thieu-shop{
+    padding-top: 35px;
+}
+
+#content-gioi-thieu-shop .tieu-de-gioi-thieu-shop h2{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif; 
+
+}
+
+/* THANH NGANG1 */
+
+#content-gioi-thieu-shop .thanh-ngang5{
+    border: 1.4px solid rgb(230, 80, 127);
+    width: 26%;
+    position: absolute;
+    left: 37%;
+    top: 190px;
+}
+
+#content-gioi-thieu-shop .sologan-gioi-thieu-shop{
+    position: absolute;
+    left: 24%;
+    top: 200px;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: bold;
+    font-size: 15px;
+    color: red;
+}
+
+/* THANH NGANG 2 */
+
+#content-gioi-thieu-shop .thanh-ngang2{
+    border: 1px solid #ccc;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 225px;
+}
+
+#bai-gioi-thieu-shop{
+    margin: 100px auto;
+    width: 90%;
+}
+
+#bai-gioi-thieu-shop .text5{
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#bai-gioi-thieu-shop .text6{
+    padding-top: 15px;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#bai-gioi-thieu-shop .text7{
+    padding-top: 10px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#bai-gioi-thieu-shop .text7 a{
+    text-decoration: none;
+    color: #333;
+}
+
+#bai-gioi-thieu-shop .text8{
+    padding: 10px 0;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#bai-gioi-thieu-shop .text8 a{
+    text-decoration: none;
+    color: #333;
+}
+
+#bai-gioi-thieu-shop .text9{
+    font-family: 'Quicksand', sans-serif; 
+}
+
+
+#bai-gioi-thieu-shop .text10{
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#bai-gioi-thieu-shop .text11{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#bai-gioi-thieu-shop .text12{
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#bai-gioi-thieu-shop .text13{
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: bold;
+}
+
+#bai-gioi-thieu-shop .text14{
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: bold;
+}
+
+#bai-gioi-thieu-shop .map-ha-noi, .map-hcm{
+    padding-top: 40px;
+}
+
+#bai-gioi-thieu-shop .text15{
+    padding: 15px 0;
+    font-family: 'Quicksand', sans-serif; 
+    font-weight: bold;
+}
+
+#bai-gioi-thieu-shop .mang-xa-hoi{
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#bai-gioi-thieu-shop .mang-xa-hoi a{
+    text-decoration: none;
+    color: #333;
+}
+
+#bai-gioi-thieu-shop .text-face{
+    padding-bottom: 10px;
+}
+
+#bai-gioi-thieu-shop .text-insta{
+    padding-bottom: 10px;
+}
+
+#bai-gioi-thieu-shop .text-linkedin{
+    padding-bottom: 10px;
+}
+
+#bai-gioi-thieu-shop .text-twitter{
+    padding-bottom: 10px;
+}
+
+#bai-gioi-thieu-shop .text-youtube{
+    padding-bottom: 10px;
+
+}
+
+#bai-gioi-thieu-shop .text-blog{
+    padding-bottom: 10px;
+
+}
+
+#bai-gioi-thieu-shop .text-grap{
+    padding-bottom: 10px;
+
+}
+
+
+/* PHẦN KẺ NGANG  */
+
+#solid{
+    border: 1px solid;
+    width: 1126px;
+    position: absolute;
+    left: 59px;
+    margin: 45px 0;
+    color: #ccc;
+}
+
+/* FOOTER */
+
+#footer-shop{
+    width: 90%;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 80px;
+}
+
+#footer-shop .ten-shop-footer{
+    position: absolute;
+    /* left: 5%; */
+    width: 35%;
+    text-align: justify;
+}
+
+#footer-shop .document-ten-shop{
+    font-size: 17px;
+    color: #656262;
+    font-weight: bold;
+
+}
+
+#footer-shop .cua-hang-chinh{
+    padding-top: 15px;
+    font-size: 17px;
+    color: #656262;
+    font-weight: bold;
+
+}
+
+#footer-shop .cua-hang-chinh a{
+    text-decoration: none;
+    color: #656262;
+    font-size: 15px;
+    color: #656262;
+    font-weight: 100;
+
+}
+
+#footer-shop .van-phong{
+    padding: 30px 0;
+    font-size: 17px;
+    color: #656262;
+    font-weight: bold;
+
+}
+
+#footer-shop .van-phong a{
+    text-decoration: none;
+    color: #656262;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#footer-shop .chi-nhanh-hcm{
+    font-size: 17px;
+    color: #656262;
+    font-weight: bold;
+
+}
+
+#footer-shop .chi-nhanh-hcm a{
+    text-decoration: none;
+    color: #656262;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+#footer-shop a:hover{
+    color: rgb(228, 62, 90);
+}
+
+#footer-shop .link-mang-xa-hoi{
+    position: absolute;
+    left: 50%;
+}
+
+#footer-shop .theo-doi-shop{
+    padding-bottom: 13px;
+    display: inline;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(97, 96, 96);
+}
+
+#footer-shop .facebook{
+    font-size: 31px;
+    color: blue;
+    position: absolute;
+    left: -3px;
+
+}
+
+#footer-shop .span1{
+    position: absolute;
+    left: 34px;
+    top: 37px;
+}
+
+#footer-shop .twitter{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    font-size: 30px;
+    color: blue;
+
+}
+
+#footer-shop .span2{
+    position: absolute;
+    left: 32px;
+    top: 86px;
+}
+
+#footer-shop .ingstagram{
+  top: 126px;
+  display: inline-block;
+  width: 31px;
+  height: 31px;
+  text-align: center;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 24px;
+  line-height: 32px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  position: absolute;
+}
+
+#footer-shop .span3{
+    position: absolute;
+    left: 33px;
+    top: 130px;
+}
+
+#footer-shop .linkedin{
+    font-size: 30px;
+    position: absolute;
+    left: 1px;
+    top: 170px;
+    color: blue;
+
+}
+
+#footer-shop .span4{
+    position: absolute;
+    left: 35px;
+    top: 177px;
+}
+
+#footer-shop .youtube{
+    font-size: 30px;
+    position: absolute;
+    left: -2px;
+    top: 213px;
+    color: red;
+}
+
+#footer-shop .span5{
+    position: absolute;
+    left: 36px;
+    top: 219px;
+}
+
+#footer-shop .cham-soc-khach-hang{
+    display: inline;
+    position: absolute;
+    right: -35px;
+}
+
+#footer-shop .tieu-de-cham-soc-khach-hang{
+    color: rgb(97, 96, 96);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#footer-shop .list-cham-soc-khach-hang{
+    padding-top: 10px;
+}
+
+#footer-shop .list-cham-soc-khach-hang li{
+    padding: 5px 0;
+    list-style: none;
+}
+
+#footer-shop .list-cham-soc-khach-hang li a{
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+    transition: 0.3s;
+}
+
+
+#footer-shop .list-cham-soc-khach-hang li a:hover {
+    color: rgb(228, 62, 90);
+}
